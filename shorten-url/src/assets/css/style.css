@@ -1,0 +1,221 @@
+/**** Reset CSS ****/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: "Montserrat";
+}
+
+
+/**** General CSS ****/
+h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+}
+
+img {
+    width: 100%;
+}
+
+a{
+    color: #FFFFFF;
+  }
+  
+  a:hover{
+    color: #FFFFFF;
+  }
+
+.btn-style-1 {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: 1px solid #9a9999;
+  }
+
+  body {
+    background-color: #e7edff;
+  }
+
+  /* Home Page */
+
+  /* Form Style */
+  .form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  form {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+  }
+
+  form div {
+    width: 100%;
+  }
+  form small {
+    color: #dd3937;
+    padding-left: 10px;
+    text-align: left !important;
+  }
+
+  form div input {
+    width: 79%;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  form div button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #f57c63;
+  }
+
+  form div button:hover {
+    background-color: white;
+    color: #f57c63;
+  }
+
+.form-content {
+    background-color: #021546;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+  }
+
+  footer p small {
+    color: #f57c63;
+  }
